@@ -102,12 +102,15 @@ gap: var(--indent);
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-container {
+.header__container {
 display: flex;
 text-align: center;
 }
 
-.logo {
+.header__logo {
+display: flex;
+align-items: center;
+justify-content: center;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -118,7 +121,7 @@ text-decoration: none;
 margin-right: 93px;
 }
 
-.logo-header {
+.header__logo--header {
 color:var(--first-studio-text-color);
 
 }
@@ -129,15 +132,15 @@ align-items: center;
 justify-content: center;
 }
 
-.nav-list .nav-item:not(:last-child) {
+.nav__list .nav__item:not(:last-child) {
 margin-right: 50px;
 }
 
-.nav-list {
+.nav__list {
 display: flex;
 }
 
-.nav-link {
+.nav__link {
 position: relative;
 color: var(--main-title-color);
 font-weight: 500;
@@ -146,33 +149,33 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.current {
+.nav_link--current {
 color: var(--accent-text-color);
 padding-top: 32px;
 padding-bottom: 32px;
 }
 
-.nav-link:hover, .nav-link:focus, .header-mail:hover, .header-mail:focus, .header-tel:hover, .header-tel:focus {
+.nav__link:hover, .nav__link:focus, .header__mail:hover, .header__mail:focus, .header__tel:hover, .heade__tel:focus {
     color: var(--accent-text-color);
 }
 
-.header-mail:hover .icon-envelope,
-.header-mail:focus .icon-envelope {
+.header__mail:hover .header__icon-envelope,
+.header__mail:focus .header__icon-envelope {
     fill: var(--accent-text-color);
 }
 
-.header-tel:hover .icon-smartphone,
-.header-tel:focus .icon-smartphone {
+.header__tel:hover .header__icon-smartphone,
+.header__tel:focus .header__icon-smartphone {
     fill: var(--accent-text-color);
 }
 
-.list-contacts {
+.header__list-contacts {
 display: flex;
 text-align: center;
-margin-left: 318px;
+margin-left: 315px;
 }
 
-.header-tel, .header-mail {
+.header__tel, .header__mail {
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16 / 14);
@@ -180,7 +183,7 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
-.header-tel {
+.header__tel {
 display: flex;
 align-items: center;
 padding-top: 32px;
@@ -188,25 +191,25 @@ padding-bottom: 32px;
 margin-left: 30px;
 }
 
-.header-mail {
+.header__mail {
  display: flex;
  align-items: center;
  padding-top: 32px;
  padding-bottom: 32px;
 }
 
-.icon-envelope { 
+.header__icon-envelope { 
 fill: #757575;
 margin-right: 10px; 
 }
 
-.icon-smartphone {
+.header__icon-smartphone {
 fill: #757575;
 margin-right: 10px; 
 }
 
 
-.current::after {
+.nav_link--current::after {
  position: absolute;
 display: inline-block;
  content: "";
@@ -238,7 +241,7 @@ padding-top: 200px;
 padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
 font-weight: 900;
 font-size: 44px;
 width: 696px;
