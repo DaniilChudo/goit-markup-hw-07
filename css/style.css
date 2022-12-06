@@ -511,7 +511,7 @@ padding-bottom: 94px;
 }*/
 
 /*-----------------Footer-------------*/
-.footer {
+/*.footer {
   background-color: var(--secondary-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -548,7 +548,7 @@ display: flex;
 flex-direction: column;   
 }*/
 
-.logo {
+/*.logo {
   display: block;
 }
 
@@ -590,9 +590,9 @@ flex-direction: column;
 .contacts__link-adress:hover,
 .contacts__link-adress:focus {
   color: var(--accent-text-color);
-}
+}*/
 
-.footer-socials {
+/*.footer-socials {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
@@ -641,9 +641,9 @@ flex-direction: column;
 .footer-socials__link:hover .socials__image,
 .footer-socials__link:focus .socials__image {
   fill: var(--main-background-color);
-}
+}*/
 
-.subscribe-form {
+/*.subscribe-form {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
@@ -694,7 +694,7 @@ flex-direction: column;
   top: 13px;
   right: 28px;
   fill: currentColor;
-}
+}*/
 
 /*-----PORTFOLI----*/
 
