@@ -6,15 +6,12 @@
   margin-right: auto;
 }
 
-
 %card-set {
-display: flex;
-flex-wrap: wrap;
-gap: var(--indent);
- }*/
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+}
 
-%card-set__items {
- flex-basis: calc((100% - var(--indent) * (var(--items) - 1 )) / var(--items));
- }
-
-
+%card-items {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
