@@ -20,6 +20,13 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--pasive-button-color);
+    color: var(--hero-title-color);
+  }
 }
 
 .bottons .bottons__item:nth-child(-n + 4) {
@@ -31,11 +38,8 @@
   justify-content: center;
   align-content: center;
   margin-bottom: 50px;
-}
 
-.bottons__radio:hover,
-.bottons__radio:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--pasive-button-color);
-  color: var(--hero-title-color);
+  &__item:nth-child(-n + 4) {
+    margin-right: 8px;
+  }
 }

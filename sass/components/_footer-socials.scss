@@ -37,14 +37,14 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-socials__link:hover,
-.footer-socials__link:focus {
-  background-color: var(--accent-text-color);
-}
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 
-.footer-socials__link:hover .socials__image,
-.footer-socials__link:focus .socials__image {
-  fill: var(--main-background-color);
+  &:hover .socials__image,
+  &:focus .socials__image {
+    fill: var(--main-background-color);
+  }
 }

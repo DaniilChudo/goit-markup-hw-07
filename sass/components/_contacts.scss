@@ -17,6 +17,11 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--adress-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
 }
 
 .contacts__link {
@@ -27,6 +32,11 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
 }
 
 .contacts__item-one {
@@ -35,13 +45,6 @@
 
 .contacts__item-two {
   margin-bottom: 9px;
-}
-
-.contacts__link:hover,
-.contacts__link:focus,
-.contacts__link-adress:hover,
-.contacts__link-adress:focus {
-  color: var(--accent-text-color);
 }
 
 .contacts__logo {
